@@ -10,6 +10,6 @@ print(person_json)
 person_dict = json.loads(person_json)
 print(person_dict)
 
-print(type(person_dict) , type(person_json))
+print(type(person_dict) , type(person_json)) # <class 'dict'> <class 'str'>
 
 # json parse is similar as of JS like  JSON.stringify()->json to string,   JSON.parse() -> json string to json object

@@ -10,9 +10,7 @@ print(list(squared))
 
 filtered = list(filter(lambda x : x > 3 , list(squared)))
 print(filtered)
-
-
-# this code does not works brcause the iterator map is consumned in print() at starting, hence first we need to convert it to list in the start become consuming
+# ^^^^ this code does not works brcause the iterator map is consumned in print() at starting, hence first we need to convert it to list in the start become consuming
 # the iterator squared is exhausted in print(list(map)) and hence cannot be used for next iterator
 # Hence we need to convert the squared iterator to list
 
