@@ -1,0 +1,13 @@
+Topics that are covered in this Python Video:
+0:00 Overview
+0:32 Open() function
+1:35 write() function
+1:51 close() function
+2:54 append mode in a file
+4:06 read from a file
+5:10 read mode in a file
+5:35 read() function
+7:19 Split() function
+11:50 File opening modes
+13:23 with statement
+14:16 close Flag in file 
